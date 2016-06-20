@@ -81,7 +81,7 @@ If the automatic "fetch_data" fails, you may manually download resouces from:
 0. Pre-complied caffe mex (Windows):
     - [DropBox](https://www.dropbox.com/s/n1x2bybd6d03s7c/caffe_mex.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1i4OlG7z)
 0. Demo R-FCN model:
-    - [DropBox](https://www.dropbox.com/s/1cvg8ke9nuo9vg3/demo_models_ResNet-101L.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1bpv8fgz)
+    - [DropBox](https://www.dropbox.com/s/1cvg8ke9nuo9vg3/demo_models_ResNet-101L.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1o77gFXo)
 0. ImageNet-pretrained networks:
     - ResNet-50L net [DropBox](https://www.dropbox.com/s/0uzh90f6jx9l0yf/models_ResNet-50L.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1kVm4ly3)
     - ResNet-101L net [DropBox](https://www.dropbox.com/s/ev91ss0pyd5h9ix/models_ResNet-101L.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1nvgu1pJ)
