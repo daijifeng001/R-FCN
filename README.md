@@ -44,8 +44,14 @@ R-FCN, ResNet-101L | VOC 07+12 trainval  | VOC 07 test           | 79.5% | 0.17s
 
 GPU: Titan, Titan X, K40, K80.
 
+### Demo:
+0.	Run `fetch_data/fetch_caffe_mex_windows_vs2013_cuda75.m` to download a compiled Caffe mex (for Windows only).
+0.	Run `fetch_data/fetch_demo_model_ResNet101.m` to download a R-FCN model using ResNet-101L net (trained on VOC 07+12 trainval).
+0.	Run `rfcn_build.m`.
+0.	Run `startup.m`.
+0.	Run `experiments/script_rfcn_demo.m` to apply the R-FCN model on demo images.
 
-### Preparation:
+### Preparation for Training & Testing:
 0.	Run `fetch_data/fetch_caffe_mex_windows_vs2013_cuda75.m` to download a compiled Caffe mex (for Windows only).
 0.	Run `fetch_data/fetch_model_ResNet50.m` to download an ImageNet-pre-trained ResNet-50L net.
 0.	Run `fetch_data/fetch_model_ResNet101.m` to download an ImageNet-pre-trained ResNet-101L net.
@@ -64,7 +70,7 @@ GPU: Titan, Titan X, K40, K80.
     - **Note**: the training time is ~19 hours on Titian X.
 0. Check other scripts in `./experiments` for more settings.
 
-**Note:** In all the experiments, training is performed on VOC 07+12 trainval, and testing is performed on VOC 07 test.
+**Note:** In all the experiments, training is performed on VOC 07+12 trainval, and testing is performed on VOC 07 test. Running time is not recorded in the test log (which is slower), but instead in an optimized implementation.
 
 ### Resources
 
@@ -74,6 +80,8 @@ If the automatic "fetch_data" fails, you may manually download resouces from:
 
 0. Pre-complied caffe mex (Windows):
     - [DropBox](https://www.dropbox.com/s/n1x2bybd6d03s7c/caffe_mex.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1i4OlG7z)
+0. Demo R-FCN model:
+    - [DropBox](https://www.dropbox.com/s/1cvg8ke9nuo9vg3/demo_models_ResNet-101L.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1o77gFXo)
 0. ImageNet-pretrained networks:
     - ResNet-50L net [DropBox](https://www.dropbox.com/s/0uzh90f6jx9l0yf/models_ResNet-50L.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1kVm4ly3)
     - ResNet-101L net [DropBox](https://www.dropbox.com/s/ev91ss0pyd5h9ix/models_ResNet-101L.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1nvgu1pJ)
