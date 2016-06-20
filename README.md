@@ -49,7 +49,7 @@ GPU: Titan, Titan X, K40, K80.
 0.	Run `fetch_data/fetch_demo_model_ResNet101.m` to download a R-FCN model using ResNet-101L net (trained on VOC 07+12 trainval).
 0.	Run `rfcn_build.m`.
 0.	Run `startup.m`.
-0.	Run `fetch_data/fetch_region_proposals.m` to download the pre-computed region proposals.
+0.	Run `experiments/script_rfcn_demo.m` to apply the R-FCN model on demo images.
 
 ### Preparation for Training & Testing:
 0.	Run `fetch_data/fetch_caffe_mex_windows_vs2013_cuda75.m` to download a compiled Caffe mex (for Windows only).
@@ -58,7 +58,7 @@ GPU: Titan, Titan X, K40, K80.
 0.	Run `fetch_data/fetch_region_proposals.m` to download the pre-computed region proposals.
 0.	Download VOC 2007 and 2012 data to ./datasets.
 0.	Run `rfcn_build.m`.
-0.	Run `experiments/script_rfcn_demo.m` to apply the R-FCN model on demo images.
+0.	Run `startup.m`.
 
 
 ### Training & Testing:
