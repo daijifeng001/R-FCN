@@ -39,13 +39,13 @@ end
 % the first run will be slower; use an empty image to warm up
 for j = 1:2 % we warm up 2 times
     im = uint8(ones(375, 500, 3)*128);
-    proposals = uint8(repmat([1,1,400,275], [2000, 1]));
+    proposals = repmat([1,1,400,275], [2000, 1]);
     proposals = proposals+100*rand(size(proposals));
     [boxes, scores] = rfcn_im_detect(conf, caffe_net, im, proposals, opts.max_rois_num_in_gpu);
 end
 
 %% -------------------- TESTING --------------------
-im_names = {'000037', '000054', '000553', '000576', '001852', '002597', '004030'};
+im_names = {'000166', '001852', '002597', '004030', '005225'};
 running_time = zeros(length(im_names), 1);
 for j = 1:length(im_names)
     im = imread(fullfile(demo_dir, [im_names{j}, '.jpg']));
