@@ -64,7 +64,7 @@ GPU: Titan, Titan X, K40, K80.
 ### Training & Testing:
 0. Run `experiments/script_rfcn_VOC0712_ResNet50_OHEM_ss.m` to train a model using ResNet-50L net with online hard example mining (OHEM), leveraging selective search proposals. The accuracy should be ~75.4% in mAP.
     - **Note**: the training time is ~13 hours on Titian X.
-0. Run `experiments/script_rfcn_VOC0712_ResNet50_OHEM_rpn.m` to train a model using ResNet-50L net with OHEM, leveraging RPN proposals (using ResNet-50L net). The accuracy should be ~77.0% in mAP.
+0. Run `experiments/script_rfcn_VOC0712_ResNet50_OHEM_rpn.m` to train a model using ResNet-50L net with OHEM, leveraging RPN proposals (using ResNet-50L net). The accuracy should be ~77.4% in mAP.
     - **Note**: the training time is ~13 hours on Titian X.
 0. Run `experiments/script_rfcn_VOC0712_ResNet101_OHEM_rpn.m` to train a model using ResNet-101L net with OHEM, leveraging RPN proposals (using ResNet-101L net). The accuracy should be ~79.5% in mAP.
     - **Note**: the training time is ~19 hours on Titian X.
@@ -72,7 +72,7 @@ GPU: Titan, Titan X, K40, K80.
 
 **Note:** 
 - In all the experiments, training is performed on VOC 07+12 trainval, and testing is performed on VOC 07 test.
-- Results are subject to some random variations. We have run 'experiments/script_rfcn_VOC0712_ResNet50_OHEM_rpn.m' for 5 times, the results are 77.1%, 77.3%, 77.7%, 77.9%, 77.0%. The mean is 77.4%, and the std is 0.39%.
+- Results are subject to some random variations. We have run 'experiments/script_rfcn_VOC0712_ResNet50_OHEM_rpn.m' for 5 times, the results are 77.1%, 77.3%, 77.7%, 77.9%, and 77.0%. The mean is 77.4%, and the std is 0.39%.
 - Running time is not recorded in the test log (which is slower), but instead in an optimized implementation.
 
 ### Resources
