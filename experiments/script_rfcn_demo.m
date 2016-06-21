@@ -1,4 +1,13 @@
 function script_rfcn_demo()
+% script_rfcn_demo()
+% A demo of RFCN for object detection using ResNet101 model and RPN
+% proposals
+% --------------------------------------------------------
+% R-FCN implementation
+% Modified from MATLAB Faster R-CNN (https://github.com/shaoqingren/faster_rcnn)
+% Copyright (c) 2016, Jifeng Dai
+% Licensed under The MIT License [see LICENSE for details]
+% --------------------------------------------------------
 
 clc;
 clear mex;
