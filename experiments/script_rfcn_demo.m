@@ -1,6 +1,6 @@
 function script_rfcn_demo()
 % script_rfcn_demo()
-% A demo of RFCN for object detection using ResNet101 model and RPN
+% A demo of R-FCN for object detection using ResNet101 model and RPN
 % proposals
 % --------------------------------------------------------
 % R-FCN implementation
