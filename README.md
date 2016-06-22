@@ -44,7 +44,7 @@ R-FCN, ResNet-101 | VOC 07+12 trainval  | VOC 07 test           | 79.5% | 0.17se
 
 GPU: Titan, Titan X, K40, K80.
 
-### Demo:
+### Demo
 0.	Run `fetch_data/fetch_caffe_mex_windows_vs2013_cuda75.m` to download a compiled Caffe mex (for Windows only).
 0.	Run `fetch_data/fetch_demo_model_ResNet101.m` to download a R-FCN model using ResNet-101 net (trained on VOC 07+12 trainval).
 0.	Run `rfcn_build.m`.
