@@ -51,7 +51,7 @@ GPU: Titan, Titan X, K40, K80.
 0.	Run `startup.m`.
 0.	Run `experiments/script_rfcn_demo.m` to apply the R-FCN model on demo images.
 
-### Preparation for Training & Testing:
+### Preparation for Training & Testing
 0.	Run `fetch_data/fetch_caffe_mex_windows_vs2013_cuda75.m` to download a compiled Caffe mex (for Windows only).
 0.	Run `fetch_data/fetch_model_ResNet50.m` to download an ImageNet-pre-trained ResNet-50 net.
 0.	Run `fetch_data/fetch_model_ResNet101.m` to download an ImageNet-pre-trained ResNet-101 net.
@@ -61,7 +61,7 @@ GPU: Titan, Titan X, K40, K80.
 0.	Run `startup.m`.
 
 
-### Training & Testing:
+### Training & Testing
 0. Run `experiments/script_rfcn_VOC0712_ResNet50_OHEM_ss.m` to train a model using ResNet-50 net with online hard example mining (OHEM), leveraging selective search proposals. The accuracy should be ~75.4% in mAP.
     - **Note**: the training time is ~13 hours on Titian X.
 0. Run `experiments/script_rfcn_VOC0712_ResNet50_OHEM_rpn.m` to train a model using ResNet-50 net with OHEM, leveraging RPN proposals (using ResNet-50 net). The accuracy should be ~77.4% in mAP.
