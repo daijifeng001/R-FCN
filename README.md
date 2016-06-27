@@ -89,6 +89,6 @@ If the automatic "fetch_data" fails, you may manually download resouces from:
     - ResNet-50 net [DropBox](https://www.dropbox.com/s/0uzh90f6jx9l0yf/models_ResNet-50L.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1kVm4ly3)
     - ResNet-101 net [DropBox](https://www.dropbox.com/s/ev91ss0pyd5h9ix/models_ResNet-101L.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1nvgu1pJ)
 0. Pre-computed region proposals:
-    - [DropBox](https://www.dropbox.com/s/gagkulgcif6k1dd/proposals.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1nv1tkH7)
+    - [DropBox](https://www.dropbox.com/s/gagkulgcif6k1dd/proposals.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1nuC8Lhn)
 
 
