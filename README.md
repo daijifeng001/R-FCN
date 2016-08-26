@@ -6,7 +6,7 @@ By Jifeng Dai, Yi Li, Kaiming He, Jian Sun
 
 **R-FCN** is a region-based object detection framework leveraging deep fully-convolutional networks, which is accurate and efficient. In contrast to previous region-based detectors such as Fast/Faster R-CNN that apply a costly per-region sub-network hundreds of times, our region-based detector is fully convolutional with almost all computation shared on the entire image. R-FCN can natually adopt powerful fully convolutional image classifier backbones, such as [ResNets](https://github.com/KaimingHe/deep-residual-networks), for object detection.
 
-R-FCN was initially described in an [arxiv tech report](https://arxiv.org/abs/1605.06409).
+R-FCN was initially described in a [NIPS 2016 paper](https://arxiv.org/abs/1605.06409).
 
 This code has been tested on Windows 7/8 64 bit, Windows Server 2012 R2, and Ubuntu 14.04, with Matlab 2014a.
 
