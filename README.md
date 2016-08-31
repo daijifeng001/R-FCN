@@ -77,18 +77,18 @@ GPU: Titan, Titan X, K40, K80.
 
 ### Resources
 
-0. Experiment logs: [DropBox](https://www.dropbox.com/s/is2gatfdxs1tcls/experiment_log.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1mhFYejI)
+0. Experiment logs: [OneDrive](https://1drv.ms/u/s!Am-5JzdW2XHzhc44qdRNJTsXLIU-2w), [BaiduYun](http://pan.baidu.com/s/1mhFYejI)
 
 If the automatic "fetch_data" fails, you may manually download resouces from:
 
 0. Pre-complied caffe mex (Windows):
-    - [DropBox](https://www.dropbox.com/s/n1x2bybd6d03s7c/caffe_mex.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1i4OlG7z)
+    - [OneDrive](https://1drv.ms/u/s!Am-5JzdW2XHzhc456RlstMF-4wHr1g), [BaiduYun](http://pan.baidu.com/s/1i4OlG7z)
 0. Demo R-FCN model:
-    - [DropBox](https://www.dropbox.com/s/1cvg8ke9nuo9vg3/demo_models_ResNet-101L.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1o77gFXo)
+    - [OneDrive](https://1drv.ms/u/s!Am-5JzdW2XHzhc486Tyvkf3koU7R7w), [BaiduYun](http://pan.baidu.com/s/1o77gFXo)
 0. ImageNet-pretrained networks:
-    - ResNet-50 net [DropBox](https://www.dropbox.com/s/0uzh90f6jx9l0yf/models_ResNet-50L.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1kVm4ly3)
-    - ResNet-101 net [DropBox](https://www.dropbox.com/s/ev91ss0pyd5h9ix/models_ResNet-101L.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1nvgu1pJ)
+    - ResNet-50 net [OneDrive](https://1drv.ms/u/s!Am-5JzdW2XHzhc46RPYjtbdbNwPJ_w), [BaiduYun](http://pan.baidu.com/s/1kVm4ly3)
+    - ResNet-101 net [OneDrive](https://1drv.ms/u/s!Am-5JzdW2XHzhc47z4S7O5Ql6W_0-g), [BaiduYun](http://pan.baidu.com/s/1nvgu1pJ)
 0. Pre-computed region proposals:
-    - [DropBox](https://www.dropbox.com/s/gagkulgcif6k1dd/proposals.zip?dl=0), [BaiduYun](http://pan.baidu.com/s/1hrAJ5re)
+    - [OneDrive](https://1drv.ms/u/s!Am-5JzdW2XHzhc49StWpgPo2GPEB_A), [BaiduYun](http://pan.baidu.com/s/1hrAJ5re)
 
 

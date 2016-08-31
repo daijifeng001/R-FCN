@@ -4,7 +4,7 @@ cd(fileparts(mfilename('fullpath')));
 
 try
     fprintf('Downloading demo_models_ResNet-101L...\n');
-    urlwrite('https://www.dropbox.com/s/1cvg8ke9nuo9vg3/demo_models_ResNet-101L.zip?dl=1', ...
+    urlwrite('https://onedrive.live.com/download?resid=F371D9563727B96F!91964&authkey=!AOk8r5H95KFO0e8', ...
         'demo_models_ResNet-101L.zip');
 
     fprintf('Unzipping...\n');

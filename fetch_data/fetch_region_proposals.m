@@ -4,7 +4,7 @@ cd(fileparts(mfilename('fullpath')));
 
 try
     fprintf('Downloading region proposals...\n');
-    urlwrite('https://www.dropbox.com/s/gagkulgcif6k1dd/proposals.zip?dl=1', ...
+    urlwrite('https://onedrive.live.com/download?resid=F371D9563727B96F!91965&authkey=!AErVqYD6NhjxAfw', ...
         'proposals.zip');
 
     fprintf('Unzipping...\n');

@@ -4,7 +4,7 @@ cd(fileparts(mfilename('fullpath')));
 
 try
     fprintf('Downloading caffe_mex...\n');
-    urlwrite('https://www.dropbox.com/s/n1x2bybd6d03s7c/caffe_mex.zip?dl=1', ...
+    urlwrite('https://onedrive.live.com/download?resid=F371D9563727B96F!91961&authkey=!AOkZbLTBfuMB69Y', ...
         'caffe_mex.zip');
 
     fprintf('Unzipping...\n');
