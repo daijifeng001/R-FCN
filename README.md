@@ -2,7 +2,7 @@
 
 By Jifeng Dai, Yi Li, Kaiming He, Jian Sun
 
-A Python version of R-FCN supporting joint training is available [here](https://github.com/Orpine/py-R-FCN).
+**It is highly recommended to use the [python version of R-FCN](https://github.com/Orpine/py-R-FCN), which supports end-to-end training/inference of R-FCN for object detection.**
 
 ### Introduction
 
