@@ -6,6 +6,8 @@ By Jifeng Dai, Yi Li, Kaiming He, Jian Sun
 
 A third party MX-Net implementation called mx-rfcn is available [here](https://github.com/terrychenism/mx-rfcn).
 
+A third party multi-GPU caffe version is available [here](https://github.com/bharatsingh430/py-R-FCN-multiGPU).
+
 ### Introduction
 
 **R-FCN** is a region-based object detection framework leveraging deep fully-convolutional networks, which is accurate and efficient. In contrast to previous region-based detectors such as Fast/Faster R-CNN that apply a costly per-region sub-network hundreds of times, our region-based detector is fully convolutional with almost all computation shared on the entire image. R-FCN can natually adopt powerful fully convolutional image classifier backbones, such as [ResNets](https://github.com/KaimingHe/deep-residual-networks), for object detection.
