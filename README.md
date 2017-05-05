@@ -2,11 +2,10 @@
 
 By Jifeng Dai, Yi Li, Kaiming He, Jian Sun
 
-**It is highly recommended to use the [python version of R-FCN](https://github.com/Orpine/py-R-FCN), which supports end-to-end training/inference of R-FCN for object detection.**
+*It is highly recommended to use the [deformable R-FCN](https://github.com/msracver/Deformable-ConvNets) implemented in MXNet, which significantly increases the accuracy at very low extra computational overhead.*
 
-A third party MX-Net implementation called mx-rfcn is available [here](https://github.com/terrychenism/mx-rfcn).
+*A [python version of R-FCN](https://github.com/Orpine/py-R-FCN) is available, which supports end-to-end training/inference of R-FCN for object detection.**
 
-A third party multi-GPU caffe version is available [here](https://github.com/bharatsingh430/py-R-FCN-multiGPU).
 
 ### Introduction
 
